@@ -42,7 +42,7 @@ namespace TcpMessage
 
                 }
             })
-            { IsBackground = true, Name = "CompactComm Server" }.Start();
+            { IsBackground = true, Name = "TcpMessage Server" }.Start();
         }
 
         public void Dispose()
